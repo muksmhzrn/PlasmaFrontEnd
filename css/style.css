@@ -1,0 +1,112 @@
+.navbar {
+	margin:0 !important;
+    padding-left: 15% !important;
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+}
+
+#navbarNav{
+    padding-left: 40%;
+}
+.nav-link{
+    font-size: larger !important;
+    font-weight: bold !important;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-image: url(../images/Plasma.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+
+  main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .intro{
+    background-color: #ffffff;
+    padding: 20vh 0;
+  }
+
+  .intro-content{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form{
+      display: flex;
+      align-items: center;
+  }
+  
+  .intro-content div{
+    width: 50%;
+  }
+  
+  .intro-text p{
+    text-align: left;
+    color: #828282;
+    line-height: 30px;
+  }
+  .container{
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .header{
+    height: 100vh;
+    color:#d9534f;
+    line-height: 50px;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .header-content{
+    padding-top: 40vh;
+    text-align: center;
+  }
+  
+  .header-content h1, .intro-content h1, .contact-section h1{
+    font-size: 42px;
+  }
+  
+  .form{
+      padding-left: 30%;
+  }
+  form.form button {
+    float: left;
+    width: 30px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background: transparent;
+    color: black;
+    font-size: 17px;
+    border: none;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  .intro-text li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 15px;
+    color: red;
+  }
+  
+  .intro li:before {
+    content: "\2192 \0020";
+    font-size: 20px;
+
+    top: -6px;
+    left: -10px;
+    color: blue;
+  }
