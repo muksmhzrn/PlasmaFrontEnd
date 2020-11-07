@@ -3,6 +3,7 @@
     padding-left: 15% !important;
     padding-top: 18px !important;
     padding-bottom: 18px !important;
+    background-color:#c4161c ;
 }
 
 #navbarNav{
@@ -34,11 +35,11 @@
 
   .intro{
     background-color: #ffffff;
-    padding: 20vh 0;
+    padding: 10vh 0;
   }
 
   .intro-content{
-    height: 50vh;
+    height: 80vh;
     display: flex;
     flex-wrap: wrap;
   }
@@ -64,7 +65,7 @@
   
   .header{
     height: 100vh;
-    color:#d9534f;
+    color:#c4161c;
     line-height: 50px;
     font-size: larger;
     font-weight: bold;
@@ -92,21 +93,60 @@
     color: black;
     font-size: 17px;
     border: none;
-    border-left: none; /* Prevent double borders */
+    border-left: none; 
     cursor: pointer;
   }
   .intro-text li {
     list-style-type: none;
     position: relative;
     padding-left: 15px;
-    color: red;
+    color: #c4161c;
   }
   
   .intro li:before {
     content: "\2192 \0020";
     font-size: 20px;
-
     top: -6px;
     left: -10px;
     color: blue;
+  }
+ 
+  .introduction{
+    background-color: #c4161c;
+    padding: 5vh 0;
+  }
+  .covid-content{
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  }
+
+  .criteria-intro{
+    background-color: #ffffff;
+    padding: 10vh 0;
+  }
+
+  .mid-section-intro{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .mid-section-intro div{
+    width: 33.33%;
+  }
+
+  .card p{
+    color: #828282;
+    line-height: 30px;
+  }
+
+  .requirements {
+    background-color: #ffffff;
+    padding: 10vh 0;
+  }
+
+  .criteria-intro h3{
+    color: #c4161c;
   }
